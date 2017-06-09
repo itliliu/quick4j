@@ -106,6 +106,7 @@
         <aspectj.version>1.6.12</aspectj.version>
         <netty.version>4.0.18.Final</netty.version>
         <hibernate.validator.version>5.1.1.Final</hibernate.validator.version>
+        <org.apache.poi.version>3.9</org.apache.poi.version>
     </properties>
 
     <dependencies>
@@ -338,6 +339,23 @@
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate.validator.version}</version>
         </dependency>
+        
+		<!--         poi -->
+        <dependency>
+	       <groupId>org.apache.poi</groupId>
+	       <artifactId>poi</artifactId>
+	       <version>3.9</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.apache.poi</groupId>
+	      <artifactId>poi-ooxml</artifactId>
+	      <version>3.9</version>
+	    </dependency>
+		<dependency>
+	      <groupId>org.apache.poi</groupId>
+	      <artifactId>poi-scratchpad</artifactId>
+	      <version>3.8</version>
+	    </dependency>
 
         <!-- netty -->
         <dependency>
