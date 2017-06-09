@@ -255,7 +255,8 @@ public void queryAll() {
  /**
   * <b>function:</b> query 基本用法测试
   */
- @Test
+ @SuppressWarnings("deprecation")
+@Test
  public void queryCase() {
      //AND 并且
      SolrQuery params = new SolrQuery("name:apple AND manu:inc");
